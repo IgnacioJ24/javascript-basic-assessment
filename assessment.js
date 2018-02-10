@@ -1,4 +1,3 @@
-
 // #1 Create a variable called hello and assign it the string 'goodbye'
 
 
@@ -16,14 +15,14 @@ var iLove = 'I love';
 
 // #4 Change my shirt color to pink using dot notation
 var myShirt = {
-	type: 'polo',
-	color: 'red'
+    type: 'polo',
+    color: 'red'
 };
-
+myShirt.color = 'pink'; // added pink;
 // Change my shirt type to spandex using square bracket notation
 var myOtherShirt = {
-	type: 'polo',
-	color: 'red'
+    type: 'polo',
+    color: 'red'
 };
 
 // #5 Create an object that tracks a count of animals in a zoo.  Call it 'zoo'
@@ -34,11 +33,11 @@ var myOtherShirt = {
 // #6 Loop through this object and change all keys that start with the letter s to have a value of 's'
 
 var snake = {
-	sliters: 'sideways',
-	eats: 'rodents',
-	says: 'ssss',
-	smells: 'heat',
-	runs: 'legless'
+    sliters: 'sideways',
+    eats: 'rodents',
+    says: 'ssss',
+    smells: 'heat',
+    runs: 'legless'
 };
 
 //#7 Create an array of strings that are the 7 primary colors in the rainbow - red, orange, yellow, green, blue, indigo, violet (lower-case). Call your array rainbowColors
@@ -94,4 +93,3 @@ var heroes = ['superman', 'batman', 'flash'];
 
 // #16 Create a function called callerBack that takes in a function (holla) and a string parameter(back) and invokes it(holla) with the argument string(back) + ' back'."
 // example - If I call you with 'Give it' you should invoke holla with 'Give it back'
-
